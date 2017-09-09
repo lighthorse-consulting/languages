@@ -1,0 +1,15 @@
+{
+  "name": "languages",
+  "version": "1.0.0",
+  "description": "Source: https://github.com/umpirsky/language-list/blob/master/data/en_US/language.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Orestes Carracedo <orestes@orestes.io>",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^21.0.2"
+  }
+}
