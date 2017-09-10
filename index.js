@@ -1,6 +1,6 @@
 const languagesByCode = require('./languages.json');
 
-const list = Object.keys(languagesByCode).map(code => {
+const list = Object.keys(languagesByCode).map(function(code) {
   return {
     code: code,
     name: languagesByCode[code],
@@ -8,6 +8,6 @@ const list = Object.keys(languagesByCode).map(code => {
 })
 
 module.exports = {
-  asHash: () => languagesByCode,
-  asList: () => list,
+  asHash: function() { return languagesByCode; },
+  asList: function() { return list; },
 }
